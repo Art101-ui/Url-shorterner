@@ -1,0 +1,27 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Art101-ui/Url-shorterner.git"
+  },
+  "author": "Farouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Art101-ui/Url-shorterner/issues"
+  },
+  "homepage": "https://github.com/Art101-ui/Url-shorterner#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
